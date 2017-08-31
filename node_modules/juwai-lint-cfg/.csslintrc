@@ -1,0 +1,44 @@
+// You can copy this file locally and delete the last “false” rules.
+// This way, we’ll have less issues later while not having to deal with legacy code as a whole.
+
+// See https://github.com/CSSLint/csslint/wiki/Rules-by-ID
+//
+// false: disable.
+// true:  enable default behaviour.
+// 1:     warnings.
+// 2:     errors.
+// source: https://gist.github.com/nzakas/1781185#file-csslint-api-js-L4
+{
+    "adjoining-classes": false,
+    "box-model": true,
+    "box-sizing": false,
+    "bulletproof-font-face": true,
+    "compatible-vendor-prefixes": true,
+    "display-property-grouping": true,
+    "duplicate-background-images": true,
+    "duplicate-properties": true,
+    "empty-rules": 2,
+    "fallback-colors": true,
+    "floats": true,
+    "font-faces": true,
+    "font-sizes": 1,
+    "gradients": true,
+    "ids": true,
+    "import": 2,
+    "important": false,
+    "known-properties": 2,
+    "non-link-hover": false,
+    "outline-none": true,
+    "overqualified-elements": true,
+    "qualified-headings": true,
+    "regex-selectors": true,
+    "shorthand": true,
+    "star-property-hack": true,
+    "text-indent": true,
+    "underscore-property-hack": true,
+    "unique-headings": true,
+    "universal-selector": true,
+    "unqualified-attributes": true,
+    "vendor-prefix": 2,
+    "zero-units": 2
+}
